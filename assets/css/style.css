@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Roboto';
+    background: #1B2029;
+    text-decoration: none;
+    user-select: none;
+}
+header{
+    height: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: .2rem;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+.links{
+    justify-content: space-between;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links a{
+    margin-left: 1.5rem;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    color: white;
+    letter-spacing: 0em;
+    transition: .2s ease-in;
+}
+.links a:hover{
+    color: rgba(255, 255, 255, 0.432);
+    transition: .4s ease-in;
+}
+.btn-login{
+    width: 6.5%;
+    height: 20px;
+    padding: 10px;
+    background: #9C1997;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+.btn-login:hover{
+    background: white;
+    color: #9C1997;
+    font-weight: 900;
+    transition: .4s ease-in;
+}
+main{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.conteudo{
+    margin-right: 2rem;
+}
+main .conteudo{
+    color: white;
+}
+main .conteudo h1{
+    width: 450px;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+main .conteudo p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+main .conteudo .btn-start{
+    margin-top: 2rem;
+    padding: 10px;
+    width: 55%;
+    background: white;
+    color: #1B2029;
+    border-radius: 15px;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+main .conteudo .btn-start:hover{
+    background: #9C1997;
+    color: white;
+    transition: .3s ease-in;
+}
+main .imagem img{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 1200px){
+    .imagem{
+        display: none;
+    }
+    .btn-login{
+        display: none;
+    }
+    .conteudo{
+        margin-right: 0;
+    }
+    main .conteudo h1{
+        width: 100%;
+    }
+    main .conteudo .btn-start{
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+}
